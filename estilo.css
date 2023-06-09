@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(161, 123, 248);
+}
+/* Navbar */
+
+.nome {
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4c0975(61, 104, 212);
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 30px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px 27px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: rgb(246, 246, 246);
+    color:rgb(99, 9, 173);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.textosobre {
+        text-align: center;
+        color: white;
+        line-height: 30px;
+        font-size: larger;
+        width: 400px;
+        height: 60px;
+        margin: 100px auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.contato {
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin: 100px auto 20px;
+}
+.contato2 {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    align-items: center;
+    margin: 100px auto 20px;
+}
+
+.contato p {
+    text-align: center;
+    color: white;
+}
+
+.portifolio{
+    color: white;
+    text-align: center;
+    float: center;
+    line-height: 80px;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem2{
+    position: absolute;
+    top: 500px;
+    right: 0%;
+    margin: 10%;
+}
+.imagem1{
+    position: absolute;
+    top: 500px;
+    left: 0%;
+    margin: 10%;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.videozao {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5%;
+}
+.mensagem {
+    text-align: center;
+    color: rgb(255, 253, 253);
+}
+.mensagem2 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
